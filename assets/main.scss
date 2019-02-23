@@ -3,7 +3,7 @@
 
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$background-color: #FFFBF3;
 
 body {
 	font-family: 'Vollkorn', serif;
@@ -80,7 +80,9 @@ since it must be aligned with the content */
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1.3em;
+	font-style: italic;
+    font-weight: 100;
+    font-size: 1em;
 	text-align: center;
 	margin-bottom: 2em;
 }
